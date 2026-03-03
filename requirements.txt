@@ -1,0 +1,36 @@
+# RAG-cy 项目依赖文件  
+# 用于在 AutoDL Jupyter 环境中部署项目  
+  
+# 基础库  
+numpy==2.4.2
+pandas==3.0.1
+tqdm==4.67.3
+python-dotenv==1.2.2
+pydantic==2.12.5
+pyprojroot==0.3.0
+tenacity==9.1.4
+  
+# PDF 和文档处理  
+docling==2.76.0
+langchain==1.2.10
+tiktoken==0.12.0
+requests==2.32.5  # 用于mineru API调用
+  
+# 向量数据库  
+faiss-cpu==1.13.2
+weaviate-client==4.20.1
+  
+# 嵌入和语言模型  
+openai==2.24.0
+dashscope==1.25.13
+  
+# 检索和排名  
+rank-bm25==0.2.2
+  
+# Web 和 API  
+urllib3==2.6.3
+  
+# 数据处理  
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
